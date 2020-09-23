@@ -50,6 +50,7 @@ int equalAB(int a, int b)
 
 	return (a==b);
 }
+/*
 // равная дробь
 int equal_fraction(int a, int b)
 {
@@ -66,4 +67,5 @@ int equal_fraction(int a, int b)
 
 	return (a==b);
 }
+*/
 /*******************************************************************************/

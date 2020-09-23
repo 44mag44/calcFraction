@@ -22,12 +22,13 @@ int error(int var)
 // проверка на ошибку при вводе натуральтного числа
 int Nvar(int var)
 {
-	int a;
+	int N;
 	var=0;
-	a=var;
-	if(!(scanf(("%d"), &a)))
+	N=var;
+	if(!(scanf(("%d"), &N)))
 		perror("scanf(var)");
-	return a;
+
+	return N;
 }
 // выделение целой части
 int improper(int a, int b)
@@ -132,7 +133,7 @@ int bpf()
 	ad=pl.a*pr.d;
 	bc=pl.b*pr.c;
 	if(ad==bc)
-		printf("Basic property of a fraction: ad==bc\n");
+		printf("\nBasic property of a fraction: ad==bc\n");
 
 	return 0;
 }
